@@ -1,4 +1,4 @@
-import {useLabels} from '../../hooks/useLabels';
+import {useLabels} from '../../hooks';
 import {LoadingIcon} from './LoadingIcon';
 import {FC} from 'react';
 

@@ -1,4 +1,3 @@
-import {useIssue} from './useIssue';
-
+export {getIssueInfo, getIssueComments, useIssue} from './useIssue';
 export {useIssues} from './useIssues';
 export {useLabels} from './useLabels';
