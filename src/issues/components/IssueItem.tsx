@@ -13,6 +13,7 @@ export const IssueItem = ({issue}: Props) => {
 	
 	const navigate = useNavigate();
 	const queryClient = useQueryClient();
+	console.log('query client', queryClient);
 	
 	
 	const prefetchData = () => {

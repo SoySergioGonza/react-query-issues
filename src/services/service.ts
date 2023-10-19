@@ -1,8 +1,8 @@
-import axios from 'axios';
+import axios, {AxiosInstance} from 'axios';
 
-export const githubApi = axios.create({
+export const githubApi: AxiosInstance = axios.create({
 	baseURL: 'https://api.github.com/repos/facebook/react',
 	headers: {
-		Authorization: 'Bearer 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'
+		Authorization: 'Bearer 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'
 	}
 });

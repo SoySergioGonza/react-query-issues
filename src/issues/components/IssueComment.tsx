@@ -14,7 +14,7 @@ export const IssueComment = ({issue}: Props) => {
 					<span className="mx-2">{issue.user.login} Commented</span>
 				</div>
 				<div className="card-body text-dark">
-					<ReactMarkdown>{issue.body}</ReactMarkdown>
+					<ReactMarkdown>{issue.body || ''}</ReactMarkdown>
 				</div>
 			</div>
 		</div>

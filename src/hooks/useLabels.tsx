@@ -1,11 +1,12 @@
 import {useQuery} from 'react-query';
 import {githubApi} from '../services/service';
-import {Label} from '../interfaces/label';
-import {sleep} from '../helpers/sleep';
+import {Label} from '../interfaces/';
+import {sleep} from '../helpers/';
 
 const getLabels = async (): Promise<Label[]> => {
 	await sleep(2);
 	const {data} = await githubApi.get<Label[]>('/labels?per_page=100');
+	console.log('data labels', data);
 	return data;
 };
 

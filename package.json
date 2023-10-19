@@ -1,6 +1,7 @@
 {
   "name": "git-issues",
   "private": true,
+  "homepage": "https://soysergiogonza.github.io/react-query-issues/build",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
